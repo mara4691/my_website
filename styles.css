@@ -1,0 +1,42 @@
+/* 조건 7번 별도의 CSS 파일*/
+
+/* 조건 3, 4번, 글씨와 배경 색상 2종 이상. + 2점*/
+body {
+    background: linear-gradient(to bottom, #f0f8ff, #ffe4e1);
+    text-align: center;
+}
+
+h1 {
+    color: #4682b4;
+}
+
+h4 {
+    background-color: azure;
+}
+
+span {
+    color:brown;
+    background-color:burlywood;
+}
+
+/* 조건 6번, 다른 크기의 글씨. + 1점*/
+b {
+    color: cadetblue;
+    font-size: 19px;
+}
+
+table {
+    margin: 20px auto;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    width: 80px;
+    margin: 10px;
+}
